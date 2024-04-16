@@ -14,7 +14,7 @@ public interface ProductService {
 	ResponseEntity<String> updateMenuItem( Map<String, String> requestMap);
 
 	ResponseEntity<String> deleteMenuItem(Integer productId);
-	//New 17-11 16:05
+	
 	  List<String> getAllProductNames();
 	
 	
